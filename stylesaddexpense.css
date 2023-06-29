@@ -1,0 +1,36 @@
+.one
+{
+    padding-top: 1rem;
+}
+
+.nav-sidebar {
+    height: 100vh;
+    width: 250px;
+    max-height: 100%;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.nav-sidebar .nav-link {
+    padding: 1.5rem 1rem;
+    color: #212529;
+}
+
+.nav-sidebar .nav-link.active {
+    font-weight: 500;
+    background-color: #e9ecef;
+}
+
+.nav-sidebar .nav-link.disabled {
+    opacity: 0.5;
+}
+
+.nav-sidebar .nav-heading {
+    padding: 0.5rem 1rem;
+    font-weight:lighter;
+    color: #6c757d;
+    
+    width: 100%;
+}
